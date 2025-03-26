@@ -306,7 +306,8 @@ body, html {
 
 
     .nav {
-        background-color: #181818;
+        background-image: url('img/bjnav.jpg');
+        background-color: #7c583a;
         width: 100%;
         height: 80px;
         margin: auto;
@@ -346,20 +347,22 @@ body, html {
     }
 
     .welcome{
-        color: #efefef;
+        color: #0b0b0b;
         text-align: center;
-        font-size: 16pt;
-       font-weight: 300;
+        font-size: 10pt;
+        font-weight: 400;
         margin-top: 55px;
         font-family: "Raleway", sans-serif;
+        letter-spacing: 6px;
+
         
     }
     .welcome2{
-        color: #efefef;
+        color: #0b0b0b;
         text-align: center;
         font-size: 15pt;
-       font-weight: 500;
-       margin-top: -12px;
+       font-weight: 800;
+       margin-top: -9px;
         font-family: "Raleway", sans-serif;
         letter-spacing: 1px;
         
@@ -370,7 +373,7 @@ body, html {
             font-size: 111%;
             font-family: "Montserrat", sans-serif;
             margin-top: -6px;
-            color: #efefef;
+            color: #0b0b0b;
             font-weight: 600;
             animation: blinker 2s linear infinite;
             text-decoration: none;
@@ -396,15 +399,18 @@ body, html {
         line-height: 17px;
         font-weight: 300;
         letter-spacing: 0.2px;
-        color: #efefef;
+        color: #0b0b0b;
+        margin-bottom: 16px;
     }
 
 
 
     .secondnav{
-        background-color: #181818;
+        background-image: url('img/bj.jpg');
         width: 100%;
         height: 800px;
+        background-size: contain;
+        
         border-radius: 60px 60px 0px 0px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         display: list-item;
@@ -419,7 +425,7 @@ body, html {
         font-family: "Raleway", sans-serif;
         font-size: 16px;
         margin-top: 66px;
-        color: #efefef;
+        color: #0b0b0b;
         letter-spacing: 0px;
         text-align: center;
         font-weight:300;
@@ -435,7 +441,7 @@ body, html {
         align-items: center;
         flex-wrap: wrap;
         margin-top: 10px;
-        background-color: #ffeeef;
+        background-color: #0b0b0b;
         height: 300px;
         
     }
@@ -472,7 +478,8 @@ body, html {
 
 
     .footer {
-        background-color:#070707;
+        background-image: url('img/bjnav.jpg');
+        background-color: #081112;
         color: white;
         text-align: center;
         padding-top: 40px;
@@ -539,14 +546,14 @@ body, html {
         text-align: left;
         padding-left:35px;
     }
-    .whatsapp { background: #5c401c; }
-    .whatsapp:hover { background: #2c1f0e; }
-    .instagram { background: #5c401c; }
-    .instagram:hover { background: #2c1f0e; }
-    .facebook { background: #5c401c; }
-    .facebook:hover { background: #2c1f0e; }
-    .call { background: #5c401c; }
-    .call:hover { background: #2c1f0e;   }
+    .whatsapp { background: #7c583a; }
+    .whatsapp:hover { background: #3f2c1c; }
+    .instagram { background: #7c583a; }
+    .instagram:hover { background: #3f2c1c; }
+    .facebook { background: #7c583a; }
+    .facebook:hover { background: #3f2c1c; }
+    .call { background: #7c583a; }
+    .call:hover { background: #3f2c1c;   }
 
 
 
